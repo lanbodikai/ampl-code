@@ -1,0 +1,79 @@
+set I := V1 V2 V3 V4 V5 V6 V7 V8 V9 V10;
+set J := S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12 S13 S14 S15;
+
+param: c C kappa :=
+V1   500 70 3
+V2   500 90 3
+V3   400 20 3
+V4   400 27 2
+V5   350 12 2
+V6   350 10 2
+V7   300 11 2
+V8   250  8 2
+V9   300 17 2
+V10  250  8 2
+;
+
+param: D R :=
+S1   30 2
+S2   15 1
+S3    9 2
+S4   32 2
+S5    9 2
+S6    8 1
+S7    7 1
+S8    5 1
+S9   10 1
+S10  12 1
+S11  20 1
+S12   6 1
+S13   4 1
+S14   8 1
+S15  10 1
+;
+
+param A:
+      S1 S2 S3 S4 S5 S6 S7 S8 S9 S10 S11 S12 S13 S14 S15 :=
+V1     1  0  0  1  0  0  0  0  0   0   1   0   0   0   0
+V2     1  0  0  1  0  0  0  0  0   0   1   0   0   1   0
+V3     0  0  1  0  1  0  0  0  0   1   0   0   0   0   0
+V4     0  0  0  1  1  0  0  0  1   0   0   0   0   0   0
+V5     0  1  1  0  0  0  0  0  0   1   0   0   0   0   0
+V6     0  1  0  0  0  1  1  0  0   0   0   0   0   0   0
+V7     0  0  0  0  0  1  1  0  0   0   0   0   0   0   1
+V8     0  0  0  0  0  0  0  1  0   0   0   1   1   0   0
+V9     0  0  1  0  1  1  0  0  0   1   0   0   0   0   0
+V10    0  0  0  0  0  0  1  1  1   0   0   1   0   0   0
+;
+
+# Optional readable names for report/debugging
+param venue_name symbolic :=
+V1   "SoFi_Stadium"
+V2   "Rose_Bowl_Pasadena"
+V3   "Crypto_com_Arena"
+V4   "Dignity_Health_Sports_Park"
+V5   "UCLA_Athletic_Facilities"
+V6   "USC_Athletic_Facilities"
+V7   "Long_Beach_Arena"
+V8   "Pomona_Fairplex"
+V9   "Inglewood_Forum"
+V10  "Dignity_South_StubHub_Ctr"
+;
+
+param sport_name symbolic :=
+S1   "Athletics_Track_and_Field"
+S2   "Swimming"
+S3   "Gymnastics"
+S4   "Soccer_Football"
+S5   "Basketball"
+S6   "Boxing"
+S7   "Wrestling"
+S8   "Weightlifting"
+S9   "Tennis"
+S10  "Volleyball"
+S11  "Cycling_Velodrome"
+S12  "Archery"
+S13  "Shooting"
+S14  "Equestrian"
+S15  "Sailing"
+;
