@@ -1,0 +1,2304 @@
+{
+  "task1": {
+    "objective": 2350.0,
+    "opened_venues": [
+      "V2",
+      "V4",
+      "V5",
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "assignments": {
+      "S1": "V2",
+      "S2": "V5",
+      "S3": "V5",
+      "S4": "V4",
+      "S5": "V4",
+      "S6": "V9",
+      "S7": "V7",
+      "S8": "V10",
+      "S9": "V10",
+      "S10": "V9",
+      "S11": "V2",
+      "S12": "V8",
+      "S13": "V8",
+      "S14": "V2",
+      "S15": "V7"
+    }
+  },
+  "task2": {
+    "objective": 2850.0,
+    "opened_venues": [
+      "V1",
+      "V2",
+      "V3",
+      "V5",
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "schedule": [
+      {
+        "sport": "S1",
+        "sport_name": "Athletics (Track & Field)",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S2",
+        "sport_name": "Swimming",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S3",
+        "sport_name": "Gymnastics",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          },
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S4",
+        "sport_name": "Soccer / Football",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 3,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 3,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S5",
+        "sport_name": "Basketball",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          },
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S6",
+        "sport_name": "Boxing",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S7",
+        "sport_name": "Wrestling",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S8",
+        "sport_name": "Weightlifting",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S9",
+        "sport_name": "Tennis",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S10",
+        "sport_name": "Volleyball",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 3,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S11",
+        "sport_name": "Cycling (Velodrome)",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S12",
+        "sport_name": "Archery",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S13",
+        "sport_name": "Shooting",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S14",
+        "sport_name": "Equestrian",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 2,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      },
+      {
+        "sport": "S15",
+        "sport_name": "Sailing",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 1,
+            "base_tickets": 0.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 0.0
+          }
+        ],
+        "total_tickets": 0.0
+      }
+    ],
+    "tickets": {
+      "base_total": 0.0,
+      "extra_total": 0.0,
+      "grand_total": 0.0,
+      "by_sport": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.0,
+        "S4": 0.0,
+        "S5": 0.0,
+        "S6": 0.0,
+        "S7": 0.0,
+        "S8": 0.0,
+        "S9": 0.0,
+        "S10": 0.0,
+        "S11": 0.0,
+        "S12": 0.0,
+        "S13": 0.0,
+        "S14": 0.0,
+        "S15": 0.0
+      }
+    }
+  },
+  "task3": {
+    "objective": 250.0,
+    "opened_venues": [
+      "V1",
+      "V2",
+      "V3",
+      "V5",
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "schedule": [
+      {
+        "sport": "S1",
+        "sport_name": "Athletics (Track & Field)",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 3,
+            "base_tickets": 30.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 30.0
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 3,
+            "base_tickets": 30.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 30.0
+          }
+        ],
+        "total_tickets": 60.0
+      },
+      {
+        "sport": "S2",
+        "sport_name": "Swimming",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 1,
+            "base_tickets": 12.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 12.0
+          }
+        ],
+        "total_tickets": 12.0
+      },
+      {
+        "sport": "S3",
+        "sport_name": "Gymnastics",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 2,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          },
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 2,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          }
+        ],
+        "total_tickets": 18.0
+      },
+      {
+        "sport": "S4",
+        "sport_name": "Soccer / Football",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 2,
+            "base_tickets": 32.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 32.0
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 2,
+            "base_tickets": 32.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 32.0
+          }
+        ],
+        "total_tickets": 64.0
+      },
+      {
+        "sport": "S5",
+        "sport_name": "Basketball",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 1,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          },
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 1,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          }
+        ],
+        "total_tickets": 18.0
+      },
+      {
+        "sport": "S6",
+        "sport_name": "Boxing",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 2,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S7",
+        "sport_name": "Wrestling",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 2,
+            "base_tickets": 7.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 7.0
+          }
+        ],
+        "total_tickets": 7.0
+      },
+      {
+        "sport": "S8",
+        "sport_name": "Weightlifting",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 2,
+            "base_tickets": 5.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 5.0
+          }
+        ],
+        "total_tickets": 5.0
+      },
+      {
+        "sport": "S9",
+        "sport_name": "Tennis",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 2,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S10",
+        "sport_name": "Volleyball",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 3,
+            "base_tickets": 12.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 12.0
+          }
+        ],
+        "total_tickets": 12.0
+      },
+      {
+        "sport": "S11",
+        "sport_name": "Cycling (Velodrome)",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 1,
+            "base_tickets": 20.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 20.0
+          }
+        ],
+        "total_tickets": 20.0
+      },
+      {
+        "sport": "S12",
+        "sport_name": "Archery",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 1,
+            "base_tickets": 6.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 6.0
+          }
+        ],
+        "total_tickets": 6.0
+      },
+      {
+        "sport": "S13",
+        "sport_name": "Shooting",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 1,
+            "base_tickets": 4.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 4.0
+          }
+        ],
+        "total_tickets": 4.0
+      },
+      {
+        "sport": "S14",
+        "sport_name": "Equestrian",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 1,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S15",
+        "sport_name": "Sailing",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 1,
+            "base_tickets": 10.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 10.0
+          }
+        ],
+        "total_tickets": 10.0
+      }
+    ],
+    "tickets": {
+      "base_total": 260.0,
+      "extra_total": 0.0,
+      "grand_total": 260.0,
+      "by_sport": {
+        "S1": 60.0,
+        "S2": 12.0,
+        "S3": 18.0,
+        "S4": 64.0,
+        "S5": 18.0,
+        "S6": 8.0,
+        "S7": 7.0,
+        "S8": 5.0,
+        "S9": 8.0,
+        "S10": 12.0,
+        "S11": 20.0,
+        "S12": 6.0,
+        "S13": 4.0,
+        "S14": 8.0,
+        "S15": 10.0
+      }
+    }
+  },
+  "task4": {
+    "objective": -28.700000000130046,
+    "opened_venues": [
+      "V1",
+      "V2",
+      "V3",
+      "V5",
+      "V7",
+      "V8",
+      "V9",
+      "V10"
+    ],
+    "schedule": [
+      {
+        "sport": "S1",
+        "sport_name": "Athletics (Track & Field)",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 1,
+            "base_tickets": 30.0,
+            "extra_tickets": 2.73,
+            "total_tickets": 32.73
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 1,
+            "base_tickets": 30.0,
+            "extra_tickets": 2.73,
+            "total_tickets": 32.73
+          }
+        ],
+        "total_tickets": 65.46
+      },
+      {
+        "sport": "S2",
+        "sport_name": "Swimming",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 2,
+            "base_tickets": 12.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 12.0
+          }
+        ],
+        "total_tickets": 12.0
+      },
+      {
+        "sport": "S3",
+        "sport_name": "Gymnastics",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 1,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          },
+          {
+            "venue": "V5",
+            "venue_name": "UCLA Athletic Facilities",
+            "week": 1,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          }
+        ],
+        "total_tickets": 18.0
+      },
+      {
+        "sport": "S4",
+        "sport_name": "Soccer / Football",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 2,
+            "base_tickets": 32.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 32.0
+          },
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 2,
+            "base_tickets": 32.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 32.0
+          }
+        ],
+        "total_tickets": 64.0
+      },
+      {
+        "sport": "S5",
+        "sport_name": "Basketball",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 2,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          },
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 2,
+            "base_tickets": 9.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 9.0
+          }
+        ],
+        "total_tickets": 18.0
+      },
+      {
+        "sport": "S6",
+        "sport_name": "Boxing",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V9",
+            "venue_name": "Inglewood Forum",
+            "week": 1,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S7",
+        "sport_name": "Wrestling",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 2,
+            "base_tickets": 7.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 7.0
+          }
+        ],
+        "total_tickets": 7.0
+      },
+      {
+        "sport": "S8",
+        "sport_name": "Weightlifting",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 2,
+            "base_tickets": 5.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 5.0
+          }
+        ],
+        "total_tickets": 5.0
+      },
+      {
+        "sport": "S9",
+        "sport_name": "Tennis",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V10",
+            "venue_name": "Dignity South (StubHub Ctr)",
+            "week": 1,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S10",
+        "sport_name": "Volleyball",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V3",
+            "venue_name": "Crypto.com Arena",
+            "week": 3,
+            "base_tickets": 12.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 12.0
+          }
+        ],
+        "total_tickets": 12.0
+      },
+      {
+        "sport": "S11",
+        "sport_name": "Cycling (Velodrome)",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V1",
+            "venue_name": "SoFi Stadium",
+            "week": 3,
+            "base_tickets": 20.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 20.0
+          }
+        ],
+        "total_tickets": 20.0
+      },
+      {
+        "sport": "S12",
+        "sport_name": "Archery",
+        "week": 2,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 2,
+            "base_tickets": 6.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 6.0
+          }
+        ],
+        "total_tickets": 6.0
+      },
+      {
+        "sport": "S13",
+        "sport_name": "Shooting",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V8",
+            "venue_name": "Pomona Fairplex",
+            "week": 1,
+            "base_tickets": 4.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 4.0
+          }
+        ],
+        "total_tickets": 4.0
+      },
+      {
+        "sport": "S14",
+        "sport_name": "Equestrian",
+        "week": 3,
+        "slots": [
+          {
+            "venue": "V2",
+            "venue_name": "Rose Bowl (Pasadena)",
+            "week": 3,
+            "base_tickets": 8.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 8.0
+          }
+        ],
+        "total_tickets": 8.0
+      },
+      {
+        "sport": "S15",
+        "sport_name": "Sailing",
+        "week": 1,
+        "slots": [
+          {
+            "venue": "V7",
+            "venue_name": "Long Beach Arena",
+            "week": 1,
+            "base_tickets": 10.0,
+            "extra_tickets": 0.0,
+            "total_tickets": 10.0
+          }
+        ],
+        "total_tickets": 10.0
+      }
+    ],
+    "tickets": {
+      "base_total": 260.0,
+      "extra_total": 5.46,
+      "grand_total": 265.46,
+      "by_sport": {
+        "S1": 65.46,
+        "S2": 12.0,
+        "S3": 18.0,
+        "S4": 64.0,
+        "S5": 18.0,
+        "S6": 8.0,
+        "S7": 7.0,
+        "S8": 5.0,
+        "S9": 8.0,
+        "S10": 12.0,
+        "S11": 20.0,
+        "S12": 6.0,
+        "S13": 4.0,
+        "S14": 8.0,
+        "S15": 10.0
+      }
+    },
+    "bus_networks": {
+      "pairs": [],
+      "triples": [
+        [
+          "V1",
+          "V2",
+          "V3"
+        ],
+        [
+          "V5",
+          "V7",
+          "V9"
+        ]
+      ]
+    }
+  },
+  "task5": {
+    "scenario_results": {
+      "task4_base": {
+        "objective": -28.700000000130046,
+        "opened_venues": [
+          "V1",
+          "V2",
+          "V3",
+          "V5",
+          "V7",
+          "V8",
+          "V9",
+          "V10"
+        ],
+        "schedule": [
+          {
+            "sport": "S1",
+            "sport_name": "Athletics (Track & Field)",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 1,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.73,
+                "total_tickets": 32.73
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 1,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.73,
+                "total_tickets": 32.73
+              }
+            ],
+            "total_tickets": 65.46
+          },
+          {
+            "sport": "S2",
+            "sport_name": "Swimming",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 2,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S3",
+            "sport_name": "Gymnastics",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S4",
+            "sport_name": "Soccer / Football",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 2,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 2,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              }
+            ],
+            "total_tickets": 64.0
+          },
+          {
+            "sport": "S5",
+            "sport_name": "Basketball",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S6",
+            "sport_name": "Boxing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 1,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S7",
+            "sport_name": "Wrestling",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 2,
+                "base_tickets": 7.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 7.0
+              }
+            ],
+            "total_tickets": 7.0
+          },
+          {
+            "sport": "S8",
+            "sport_name": "Weightlifting",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 2,
+                "base_tickets": 5.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 5.0
+              }
+            ],
+            "total_tickets": 5.0
+          },
+          {
+            "sport": "S9",
+            "sport_name": "Tennis",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 1,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S10",
+            "sport_name": "Volleyball",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 3,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S11",
+            "sport_name": "Cycling (Velodrome)",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 3,
+                "base_tickets": 20.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 20.0
+              }
+            ],
+            "total_tickets": 20.0
+          },
+          {
+            "sport": "S12",
+            "sport_name": "Archery",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 2,
+                "base_tickets": 6.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 6.0
+              }
+            ],
+            "total_tickets": 6.0
+          },
+          {
+            "sport": "S13",
+            "sport_name": "Shooting",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 1,
+                "base_tickets": 4.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 4.0
+              }
+            ],
+            "total_tickets": 4.0
+          },
+          {
+            "sport": "S14",
+            "sport_name": "Equestrian",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 3,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S15",
+            "sport_name": "Sailing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 1,
+                "base_tickets": 10.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 10.0
+              }
+            ],
+            "total_tickets": 10.0
+          }
+        ],
+        "tickets": {
+          "base_total": 260.0,
+          "extra_total": 5.46,
+          "grand_total": 265.46,
+          "by_sport": {
+            "S1": 65.46,
+            "S2": 12.0,
+            "S3": 18.0,
+            "S4": 64.0,
+            "S5": 18.0,
+            "S6": 8.0,
+            "S7": 7.0,
+            "S8": 5.0,
+            "S9": 8.0,
+            "S10": 12.0,
+            "S11": 20.0,
+            "S12": 6.0,
+            "S13": 4.0,
+            "S14": 8.0,
+            "S15": 10.0
+          }
+        },
+        "bus_networks": {
+          "pairs": [],
+          "triples": [
+            [
+              "V1",
+              "V2",
+              "V3"
+            ],
+            [
+              "V5",
+              "V7",
+              "V9"
+            ]
+          ]
+        }
+      },
+      "ticket_5": {
+        "objective": 1430.6499999999983,
+        "opened_venues": [
+          "V1",
+          "V2",
+          "V3",
+          "V5",
+          "V7",
+          "V8",
+          "V9",
+          "V10"
+        ],
+        "schedule": [
+          {
+            "sport": "S1",
+            "sport_name": "Athletics (Track & Field)",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 1,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.73,
+                "total_tickets": 32.73
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 1,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.73,
+                "total_tickets": 32.73
+              }
+            ],
+            "total_tickets": 65.46
+          },
+          {
+            "sport": "S2",
+            "sport_name": "Swimming",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 2,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S3",
+            "sport_name": "Gymnastics",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S4",
+            "sport_name": "Soccer / Football",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 2,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 2,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              }
+            ],
+            "total_tickets": 64.0
+          },
+          {
+            "sport": "S5",
+            "sport_name": "Basketball",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S6",
+            "sport_name": "Boxing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 1,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S7",
+            "sport_name": "Wrestling",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 2,
+                "base_tickets": 7.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 7.0
+              }
+            ],
+            "total_tickets": 7.0
+          },
+          {
+            "sport": "S8",
+            "sport_name": "Weightlifting",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 1,
+                "base_tickets": 5.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 5.0
+              }
+            ],
+            "total_tickets": 5.0
+          },
+          {
+            "sport": "S9",
+            "sport_name": "Tennis",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 2,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S10",
+            "sport_name": "Volleyball",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 3,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S11",
+            "sport_name": "Cycling (Velodrome)",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 3,
+                "base_tickets": 20.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 20.0
+              }
+            ],
+            "total_tickets": 20.0
+          },
+          {
+            "sport": "S12",
+            "sport_name": "Archery",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 2,
+                "base_tickets": 6.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 6.0
+              }
+            ],
+            "total_tickets": 6.0
+          },
+          {
+            "sport": "S13",
+            "sport_name": "Shooting",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 1,
+                "base_tickets": 4.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 4.0
+              }
+            ],
+            "total_tickets": 4.0
+          },
+          {
+            "sport": "S14",
+            "sport_name": "Equestrian",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 3,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S15",
+            "sport_name": "Sailing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 1,
+                "base_tickets": 10.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 10.0
+              }
+            ],
+            "total_tickets": 10.0
+          }
+        ],
+        "tickets": {
+          "base_total": 260.0,
+          "extra_total": 5.46,
+          "grand_total": 265.46,
+          "by_sport": {
+            "S1": 65.46,
+            "S2": 12.0,
+            "S3": 18.0,
+            "S4": 64.0,
+            "S5": 18.0,
+            "S6": 8.0,
+            "S7": 7.0,
+            "S8": 5.0,
+            "S9": 8.0,
+            "S10": 12.0,
+            "S11": 20.0,
+            "S12": 6.0,
+            "S13": 4.0,
+            "S14": 8.0,
+            "S15": 10.0
+          }
+        },
+        "bus_networks": {
+          "pairs": [],
+          "triples": [
+            [
+              "V1",
+              "V2",
+              "V3"
+            ],
+            [
+              "V5",
+              "V7",
+              "V9"
+            ]
+          ]
+        }
+      },
+      "ticket_15": {
+        "objective": -1496.5500000003638,
+        "opened_venues": [
+          "V1",
+          "V2",
+          "V3",
+          "V5",
+          "V7",
+          "V8",
+          "V9",
+          "V10"
+        ],
+        "schedule": [
+          {
+            "sport": "S1",
+            "sport_name": "Athletics (Track & Field)",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 3,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.94,
+                "total_tickets": 32.94
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 3,
+                "base_tickets": 30.0,
+                "extra_tickets": 2.94,
+                "total_tickets": 32.94
+              }
+            ],
+            "total_tickets": 65.88
+          },
+          {
+            "sport": "S2",
+            "sport_name": "Swimming",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 2,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S3",
+            "sport_name": "Gymnastics",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 1,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S4",
+            "sport_name": "Soccer / Football",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 1,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 1,
+                "base_tickets": 32.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 32.0
+              }
+            ],
+            "total_tickets": 64.0
+          },
+          {
+            "sport": "S5",
+            "sport_name": "Basketball",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              },
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S6",
+            "sport_name": "Boxing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 1,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S7",
+            "sport_name": "Wrestling",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 2,
+                "base_tickets": 7.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 7.0
+              }
+            ],
+            "total_tickets": 7.0
+          },
+          {
+            "sport": "S8",
+            "sport_name": "Weightlifting",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 2,
+                "base_tickets": 5.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 5.0
+              }
+            ],
+            "total_tickets": 5.0
+          },
+          {
+            "sport": "S9",
+            "sport_name": "Tennis",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 1,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S10",
+            "sport_name": "Volleyball",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 3,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S11",
+            "sport_name": "Cycling (Velodrome)",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 2,
+                "base_tickets": 20.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 20.0
+              }
+            ],
+            "total_tickets": 20.0
+          },
+          {
+            "sport": "S12",
+            "sport_name": "Archery",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 2,
+                "base_tickets": 6.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 6.0
+              }
+            ],
+            "total_tickets": 6.0
+          },
+          {
+            "sport": "S13",
+            "sport_name": "Shooting",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 1,
+                "base_tickets": 4.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 4.0
+              }
+            ],
+            "total_tickets": 4.0
+          },
+          {
+            "sport": "S14",
+            "sport_name": "Equestrian",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 2,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S15",
+            "sport_name": "Sailing",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 1,
+                "base_tickets": 10.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 10.0
+              }
+            ],
+            "total_tickets": 10.0
+          }
+        ],
+        "tickets": {
+          "base_total": 260.0,
+          "extra_total": 5.88,
+          "grand_total": 265.88,
+          "by_sport": {
+            "S1": 65.88,
+            "S2": 12.0,
+            "S3": 18.0,
+            "S4": 64.0,
+            "S5": 18.0,
+            "S6": 8.0,
+            "S7": 7.0,
+            "S8": 5.0,
+            "S9": 8.0,
+            "S10": 12.0,
+            "S11": 20.0,
+            "S12": 6.0,
+            "S13": 4.0,
+            "S14": 8.0,
+            "S15": 10.0
+          }
+        },
+        "bus_networks": {
+          "pairs": [
+            [
+              "V8",
+              "V10"
+            ]
+          ],
+          "triples": [
+            [
+              "V1",
+              "V2",
+              "V3"
+            ],
+            [
+              "V5",
+              "V7",
+              "V9"
+            ]
+          ]
+        }
+      },
+      "demand_minus_10pct": {
+        "objective": 239.77999999999997,
+        "opened_venues": [
+          "V1",
+          "V2",
+          "V3",
+          "V5",
+          "V7",
+          "V8",
+          "V9",
+          "V10"
+        ],
+        "schedule": [
+          {
+            "sport": "S1",
+            "sport_name": "Athletics (Track & Field)",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 2,
+                "base_tickets": 27.0,
+                "extra_tickets": 2.457,
+                "total_tickets": 29.457
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 2,
+                "base_tickets": 27.0,
+                "extra_tickets": 2.457,
+                "total_tickets": 29.457
+              }
+            ],
+            "total_tickets": 58.914
+          },
+          {
+            "sport": "S2",
+            "sport_name": "Swimming",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 1,
+                "base_tickets": 12.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 12.0
+              }
+            ],
+            "total_tickets": 12.0
+          },
+          {
+            "sport": "S3",
+            "sport_name": "Gymnastics",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 2,
+                "base_tickets": 8.1,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.1
+              },
+              {
+                "venue": "V5",
+                "venue_name": "UCLA Athletic Facilities",
+                "week": 2,
+                "base_tickets": 8.1,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.1
+              }
+            ],
+            "total_tickets": 16.2
+          },
+          {
+            "sport": "S4",
+            "sport_name": "Soccer / Football",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 1,
+                "base_tickets": 28.8,
+                "extra_tickets": 0.0,
+                "total_tickets": 28.8
+              },
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 1,
+                "base_tickets": 28.8,
+                "extra_tickets": 0.0,
+                "total_tickets": 28.8
+              }
+            ],
+            "total_tickets": 57.6
+          },
+          {
+            "sport": "S5",
+            "sport_name": "Basketball",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 1,
+                "base_tickets": 8.1,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.1
+              },
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 1,
+                "base_tickets": 8.1,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.1
+              }
+            ],
+            "total_tickets": 16.2
+          },
+          {
+            "sport": "S6",
+            "sport_name": "Boxing",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V9",
+                "venue_name": "Inglewood Forum",
+                "week": 2,
+                "base_tickets": 7.2,
+                "extra_tickets": 0.0,
+                "total_tickets": 7.2
+              }
+            ],
+            "total_tickets": 7.2
+          },
+          {
+            "sport": "S7",
+            "sport_name": "Wrestling",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 1,
+                "base_tickets": 6.3,
+                "extra_tickets": 0.0,
+                "total_tickets": 6.3
+              }
+            ],
+            "total_tickets": 6.3
+          },
+          {
+            "sport": "S8",
+            "sport_name": "Weightlifting",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 2,
+                "base_tickets": 4.5,
+                "extra_tickets": 0.0,
+                "total_tickets": 4.5
+              }
+            ],
+            "total_tickets": 4.5
+          },
+          {
+            "sport": "S9",
+            "sport_name": "Tennis",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 2,
+                "base_tickets": 8.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 8.0
+              }
+            ],
+            "total_tickets": 8.0
+          },
+          {
+            "sport": "S10",
+            "sport_name": "Volleyball",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V3",
+                "venue_name": "Crypto.com Arena",
+                "week": 3,
+                "base_tickets": 10.8,
+                "extra_tickets": 0.0,
+                "total_tickets": 10.8
+              }
+            ],
+            "total_tickets": 10.8
+          },
+          {
+            "sport": "S11",
+            "sport_name": "Cycling (Velodrome)",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V1",
+                "venue_name": "SoFi Stadium",
+                "week": 3,
+                "base_tickets": 18.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 18.0
+              }
+            ],
+            "total_tickets": 18.0
+          },
+          {
+            "sport": "S12",
+            "sport_name": "Archery",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V10",
+                "venue_name": "Dignity South (StubHub Ctr)",
+                "week": 1,
+                "base_tickets": 5.4,
+                "extra_tickets": 0.0,
+                "total_tickets": 5.4
+              }
+            ],
+            "total_tickets": 5.4
+          },
+          {
+            "sport": "S13",
+            "sport_name": "Shooting",
+            "week": 1,
+            "slots": [
+              {
+                "venue": "V8",
+                "venue_name": "Pomona Fairplex",
+                "week": 1,
+                "base_tickets": 3.6,
+                "extra_tickets": 0.0,
+                "total_tickets": 3.6
+              }
+            ],
+            "total_tickets": 3.6
+          },
+          {
+            "sport": "S14",
+            "sport_name": "Equestrian",
+            "week": 3,
+            "slots": [
+              {
+                "venue": "V2",
+                "venue_name": "Rose Bowl (Pasadena)",
+                "week": 3,
+                "base_tickets": 7.2,
+                "extra_tickets": 0.0,
+                "total_tickets": 7.2
+              }
+            ],
+            "total_tickets": 7.2
+          },
+          {
+            "sport": "S15",
+            "sport_name": "Sailing",
+            "week": 2,
+            "slots": [
+              {
+                "venue": "V7",
+                "venue_name": "Long Beach Arena",
+                "week": 2,
+                "base_tickets": 9.0,
+                "extra_tickets": 0.0,
+                "total_tickets": 9.0
+              }
+            ],
+            "total_tickets": 9.0
+          }
+        ],
+        "tickets": {
+          "base_total": 236.0,
+          "extra_total": 4.914,
+          "grand_total": 240.914,
+          "by_sport": {
+            "S1": 58.914,
+            "S2": 12.0,
+            "S3": 16.2,
+            "S4": 57.6,
+            "S5": 16.2,
+            "S6": 7.2,
+            "S7": 6.3,
+            "S8": 4.5,
+            "S9": 8.0,
+            "S10": 10.8,
+            "S11": 18.0,
+            "S12": 5.4,
+            "S13": 3.6,
+            "S14": 7.2,
+            "S15": 9.0
+          }
+        },
+        "bus_networks": {
+          "pairs": [],
+          "triples": [
+            [
+              "V1",
+              "V2",
+              "V3"
+            ],
+            [
+              "V5",
+              "V7",
+              "V9"
+            ]
+          ]
+        }
+      }
+    },
+    "cross_evaluation_costs": {
+      "task4_base": {
+        "task4_base": -28.7,
+        "ticket_5": -28.7,
+        "ticket_15": -27.7,
+        "demand_minus_10pct": -28.7
+      },
+      "ticket_5": {
+        "task4_base": 1430.65,
+        "ticket_5": 1430.65,
+        "ticket_15": 1441.15,
+        "demand_minus_10pct": 1430.65
+      },
+      "ticket_15": {
+        "task4_base": -1488.05,
+        "ticket_5": -1488.05,
+        "ticket_15": -1496.55,
+        "demand_minus_10pct": -1488.05
+      },
+      "demand_minus_10pct": {
+        "task4_base": 239.78,
+        "ticket_5": 239.78,
+        "ticket_15": 241.88,
+        "demand_minus_10pct": 239.78
+      }
+    }
+  }
+}
