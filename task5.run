@@ -1,0 +1,27 @@
+reset;
+model task4.mod;
+data project_data.dat;
+
+printf "\nScenario A: $5 per ticket\n";
+let ticket_value := 5;
+let demand_scale := 1;
+solve;
+display TotalCost;
+display {p in PAIRS: pair[p] > 0.5} pair[p];
+display {g in TRIPLES: triple[g] > 0.5} triple[g];
+
+printf "\nScenario B: $15 per ticket\n";
+let ticket_value := 15;
+let demand_scale := 1;
+solve;
+display TotalCost;
+display {p in PAIRS: pair[p] > 0.5} pair[p];
+display {g in TRIPLES: triple[g] > 0.5} triple[g];
+
+printf "\nScenario C: demand reduced by 10%%\n";
+let ticket_value := 10;
+let demand_scale := 0.9;
+solve;
+display TotalCost;
+display {p in PAIRS: pair[p] > 0.5} pair[p];
+display {g in TRIPLES: triple[g] > 0.5} triple[g];

@@ -1,0 +1,17 @@
+reset;
+model task4.mod;
+data project_data.dat;
+
+let ticket_value := 10;
+let demand_scale := 1;
+let bus_cost := 20;
+
+solve;
+
+display TotalCost;
+display {i in I: y[i] > 0.5} y[i];
+display {j in J, t in T: z[j,t] > 0.5} z[j,t];
+display {i in I, j in J, t in T: x[i,j,t] > 0.5} x[i,j,t];
+display {i in I, t in T: base_week[i,t] + extra_week[i,t] > 0} base_week[i,t], extra_week[i,t];
+display {p in PAIRS: pair[p] > 0.5} pair[p];
+display {g in TRIPLES: triple[g] > 0.5} triple[g];
