@@ -7,6 +7,8 @@ param kappa{I} >= 0, integer;
 param D{J} >= 0;
 param R{J} >= 1, integer;
 param A{I,J} binary;
+param venue_name{I} symbolic default "";
+param sport_name{J} symbolic default "";
 
 param Tmax integer >= 1 := max {i in I} kappa[i];
 set T ordered := 1..Tmax;
@@ -36,4 +38,3 @@ subject to OpenIfActive{i in I, t in T}:
 
 subject to Eligibility{i in I, j in J, t in T}:
     x[i,j,t] <= A[i,j];
-

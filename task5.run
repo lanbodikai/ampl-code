@@ -1,6 +1,7 @@
 reset;
 model task4.mod;
 data project_data.dat;
+option solver highs;
 
 printf "\nScenario A: $5 per ticket\n";
 let ticket_value := 5;

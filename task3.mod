@@ -7,6 +7,8 @@ param kappa{I} >= 0, integer;
 param D{J} >= 0;
 param R{J} >= 1, integer;
 param A{I,J} binary;
+param venue_name{I} symbolic default "";
+param sport_name{J} symbolic default "";
 
 param ticket_value >= 0 default 10;
 param demand_scale >= 0 default 1;
@@ -46,4 +48,3 @@ subject to SalesByDemand{i in I, j in J, t in T}:
 
 subject to SalesByCapacity{i in I, j in J, t in T}:
     sold[i,j,t] <= C[i] * x[i,j,t];
-

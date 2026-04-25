@@ -1,6 +1,7 @@
 reset;
 model task3.mod;
 data project_data.dat;
+option solver highs;
 
 let ticket_value := 10;
 let demand_scale := 1;

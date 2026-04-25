@@ -1,6 +1,7 @@
 reset;
 model task2.mod;
 data project_data.dat;
+option solver highs;
 
 solve;
 

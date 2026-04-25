@@ -7,6 +7,8 @@ param kappa{I} >= 0, integer;
 param D{J} >= 0;
 param R{J} >= 1, integer;
 param A{I,J} binary;
+param venue_name{I} symbolic default "";
+param sport_name{J} symbolic default "";
 
 param ticket_value >= 0 default 10;
 param demand_scale >= 0 default 1;
@@ -266,4 +268,3 @@ subject to InboundLimit{i in I, t in T}:
     + sum {(i,k,l) in TRIPLES} (flow3_ki[i,k,l,t] + flow3_li[i,k,l,t] + flow2_ki[i,k,l,t] + flow2_li[i,k,l,t])
     + sum {(k,i,l) in TRIPLES} (flow3_ik[k,i,l,t] + flow3_li[k,i,l,t] + flow2_ik[k,i,l,t] + flow2_li[k,i,l,t])
     + sum {(k,l,i) in TRIPLES} (flow3_il[k,l,i,t] + flow3_kl[k,l,i,t] + flow2_il[k,l,i,t] + flow2_kl[k,l,i,t]);
-
