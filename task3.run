@@ -1,0 +1,14 @@
+reset;
+model task3.mod;
+data project_data.dat;
+
+let ticket_value := 10;
+let demand_scale := 1;
+
+solve;
+
+display TotalCost;
+display {i in I: y[i] > 0.5} y[i];
+display {j in J, t in T: z[j,t] > 0.5} z[j,t];
+display {i in I, j in J, t in T: x[i,j,t] > 0.5} x[i,j,t];
+display {i in I, j in J, t in T: sold[i,j,t] > 0} sold[i,j,t];
