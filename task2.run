@@ -1,0 +1,11 @@
+reset;
+model task2.mod;
+data project_data.dat;
+option solver highs;
+
+solve;
+
+display TotalCost;
+display {i in I: y[i] > 0.5} y[i];
+display {j in J, t in T: z[j,t] > 0.5} z[j,t];
+display {i in I, j in J, t in T: x[i,j,t] > 0.5} x[i,j,t];

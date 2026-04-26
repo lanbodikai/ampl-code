@@ -47,7 +47,7 @@ V10    0  0  0  0  0  0  1  1  1   0   0   1   0   0   0
 ;
 
 # Optional readable names for report/debugging
-param venue_name symbolic :=
+param venue_name :=
 V1   "SoFi_Stadium"
 V2   "Rose_Bowl_Pasadena"
 V3   "Crypto_com_Arena"
@@ -60,7 +60,7 @@ V9   "Inglewood_Forum"
 V10  "Dignity_South_StubHub_Ctr"
 ;
 
-param sport_name symbolic :=
+param sport_name :=
 S1   "Athletics_Track_and_Field"
 S2   "Swimming"
 S3   "Gymnastics"

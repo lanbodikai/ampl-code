@@ -7,6 +7,8 @@ param kappa{I} >= 0, integer;    # max number of sports at venue i
 param D{J} >= 0;                 # demand (unused in Task 1, kept for consistency)
 param R{J} >= 0, integer;        # required sessions (unused in Task 1, kept for consistency)
 param A{I,J} binary;             # eligibility matrix
+param venue_name{I} symbolic default "";
+param sport_name{J} symbolic default "";
 
 var y{I} binary;                 # 1 if venue i is opened
 var x{I,J} binary;               # 1 if sport j assigned to venue i
@@ -25,16 +27,3 @@ subject to RespectEligibility{i in I, j in J}:
 
 subject to VenueSportLimit{i in I}:
     sum{j in J} x[i,j] <= kappa[i];
-
-solve;
-
-printf "\nOptimal total fixed cost (thousand $): %g\n", TotalCost;
-printf "\nOpened venues:\n";
-for {i in I: y[i] > 0.5} {
-    printf "%s\n", i;
-}
-
-printf "\nAssignments:\n";
-for {i in I, j in J: x[i,j] > 0.5} {
-    printf "%s -> %s\n", j, i;
-}
